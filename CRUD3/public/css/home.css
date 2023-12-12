@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   text-decoration: none;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* CÓDIGOS QUE EUZINHA MESMO BOTEI*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#logoInicio{
+  height: 50px;
+  width: 50px;
+}
+
+img{
+  margin: 5px 70px;
+}
+/* END */
+
+section,
+footer{
+   padding: 54px 0;
+}
+
+
+h3{
+   font-size: 50px;
+}
+
+p{
+  color: #414141d2;
+}
+
+.container-sm{
+    max-width: 1400px;
+    margin: 0 auto;
+    /*padding: 0 5%;*/
+   
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+header{
+   background-position: center;
+}
+
+nav{
+    background-color: #0abab5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul{
+   display: flex;
+   align-items: center;
+}
+
+nav ul a{
+   color: rgb(255, 255, 255);
+   margin: 0 25px;
+   text-transform: uppercase;
+   font-size: 14px;
+   display: block;
+}
+
+nav ul a:not(#btn #funci #paciente):after{
+   content: " ";
+   background-color: #3d7dc7;
+   height: 2px;
+   width: 0%;
+   display: block;
+   margin: 0 auto;
+   transition: 0.3s;
+}
+
+nav ul a:hover:not(#btn):after{
+   width: 100%;
+}
+
+a, button, #btn{
+   color: white;
+   border: none;
+}
+
+button{
+   font-size: 14px;
+   background-color: #17ebe4;;
+   border-radius: 5px;
+   margin-right: 45px;
+ 
+}
+
+#btn, #btn2{
+    font-size: 14px;
+    background-color: #17ebe4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#btn1{
+   font-size: 14px;
+   background-color: #17ebe4;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   display: inline-block;
+}
+
+#btn:hover{
+   text-decoration: underline;
+}
+
+#btn2:hover{
+   text-decoration: underline;
+}
+
+.banner{
+   display: flex;
+   justify-content: flex-start;
+   color: white;
+   height: 647px;
+   background-color: #0abab5;
+   background-image: url(https://static-cse.canva.com/_next/static/assets/wave_w2881xh801_a775fc2518c0a6ca438299351b5d48a3faf59e7348ac4a6f5f88b3b68fd5a06a.png);
+}
+
+
+
+.banner .banner-text{
+   top: 200px;
+   margin: 150px;
+   /*...*/
+}
+
+.banner .banner-text h1{  
+   margin-top: 20px;
+   font-size: 70px;
+   font-family: 'Lora', serif;
+   font-weight: 600px;
+}
+
+.banner .banner-text p{
+   font-size: 22px;
+   color: #ffffff;
+   font-weight: lighter;
+}
+
+/*MINHA AUTORIA ;)*/
+#btnn{
+   margin: 18px 0;
+   background-color: #3d7dc7;
+   border-style: none;
+}
+
+#btnn:hover{
+   background-color: #9edbff;
+}
+
+#btnn2{
+   margin: 18px 0;
+   background-color: #3d7dc7;
+   border-style: none;
+
+}
+
+#btnn2:hover{
+   background-color: #9edbff;
+}
+
+.agenda .container{
+   display: flex;
+   align-items: center;
+}
+
+.agenda .agenda-text{
+    width: 50%;
+    padding:  0 40px;
+}
+
+.agenda .agenda-text h3{
+   font-size: 42px;
+   font-family: 'Lora', serif;
+   font-weight: 600px;
+}
+
+.agenda .agenda-text p{
+    margin: 5px 0 10px 0;
+    color: #353535;
+ }
+
+.agenda .agenda-img{
+    width: 50%;
+}
+
+.agenda .agenda-img img{
+    width: 90%;
+}
+
+.agenda .pilha-img img{
+    margin-right: 200px;
+}
+.passo-a-passo{
+   background-color: #17ebe462;
+}
+.passo-a-passo h3{
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: 600px;
+}
+
+.passo-a-passo p{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.passo-a-passo .card-item{
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #0abab5;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.passo-a-passo .card-item img{
+   margin: 10px auto;
+   top: 20px;
+   display: block;
+}
+
+.passo-a-passo .card-item:hover{
+   background-color: #0abab5;
+}
+
+.informações{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.namePage, #logo{
+   width: 200px;
+   margin-left: 0;
+}
+.namePage, p{
+   font-weight: 500;
+   color: #353535;
+}
